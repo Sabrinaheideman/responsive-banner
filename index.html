@@ -2,24 +2,30 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>The Planet Earth</title>
+  <title>Responsive Banner</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-  <div class="banner">
-    <img class="img-flex" src="images/earth-horizon.jpg" alt="Picture of the Earth from outer space.">
-    <div class="banner-content push-0 gutter-1-2 pad-b">
-      <div class="max-length">
-        <div class="text">
-          <h1 class="push-0 pad-t pad-b-1-2 ">The Planet Earth</h1>
-          <p>An amazingly species rich, varied climate planet, the third, and only habitable, planet in the Solar System, located about 25 000 ly from the Galactic Centre.</p>
-        </div>
-        <a class="btn mega" href="#">Book a star cruise</a>
+<body class="banner">
+  <ul>
+    <li>
+      <img class="img-flex" src="images/earth-horizon.jpg" alt="">
+    </li>
+    <li class="banner-content grid gutter-1-4 pad-t pad-b ">
+      <div class="gutter-1-2 unit xs-1 m-1-2 l-1-2">
+        <h1 class="push-1-2">The Planet Earth</h1>
+        <p class="push-1-2 milli">An amazingly species rich, varied climate planet, the third, and only habitable, planet in the Solar System, located about 25 000 ly from the Galactic Centre.</p>
       </div>
-    </div>
-  </div>
+      <div class="unit xs-1 m-1-2 l-1-2">
+        <a class="btn btn-ghost" href="#">Book a star cruise</a>
+      </div>
+    </li>
+  </ul>
+
+
+
 </body>
 </html>
